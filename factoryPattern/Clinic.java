@@ -36,6 +36,13 @@ public class Clinic {
                 break;
             case 2: System.out.println("Number of lives: " + ((Cat)pet).getNoOfLives())
                 break;
+            case 3:
+                    System.out.println("Exiting the program...");
+                    System.exit(0);
+                break;
+            default:
+                    System.out.println("Invalid choice. Please choose again.");
+                break;
         }
         
         System.out.println("Pet kind: " + petFile.getPet().getClass().getSimpleName());
