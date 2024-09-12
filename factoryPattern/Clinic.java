@@ -31,6 +31,13 @@ public class Clinic {
 
         System.out.println("Pet id is " + petFile.getPetId());
         System.out.println("Pet name is " + petFile.getPetName());
+       switch(choice){
+            case 1: System.out.println("Pet breed is + ((Dog)pet).getBreed())
+                break;
+            case 2: System.out.println("Number of lives: " + ((Cat)pet).getNoOfLives())
+                break;
+        }
+        
         System.out.println("Pet kind: " + petFile.getPet().getClass().getSimpleName());
         System.out.println("Communication sound: "+ petFile.getPet().makeSound());
         System.out.println("Play mode: " + petFile.getPet().play());
